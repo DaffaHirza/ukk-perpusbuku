@@ -23,7 +23,7 @@
                 <div class="login-wrap">
                     <div class="login-content">
                         <div class="login-logo">
-                            Register
+                            <h2>Create an acount</h2>
                         </div>
                         <div class="login-form">
                             <form action="{{ route('register')}}" method="post">
@@ -45,7 +45,8 @@
                                     <input class="au-input au-input--full" type="password" name="password_confirmation" placeholder="Password">
                                 </div>
                                 <button class="au-btn au-btn--block au-btn--green m-b-20" type="submit">register</button>
-                                
+                                <div class="social-login-content">
+                                </div>
                             </form>
                             <div class="register-link">
                                 <p>

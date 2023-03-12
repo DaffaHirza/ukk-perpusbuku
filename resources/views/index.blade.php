@@ -17,11 +17,11 @@
   </head>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
-          <a class="navbar-brand text-bold" href=""><h3>Perpustakaan Manhwa</h3></a>
+          <a class="navbar-brand flex-grow-1" href=""><h3>Perpustakaan Manhwa</h3></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
           <ul class="navbar-nav ms-auto">
               <li class="nav-item">
                   <a class="nav-link" href="{{route ('login')}}">Login</a>

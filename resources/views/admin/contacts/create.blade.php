@@ -36,7 +36,7 @@
                             <input type="text" class="form-control" id="penerbit" name="penerbit" value="{{ old('penerbit') }}">
                         </div>
                         <div class="form-group">
-                            <label for="gambar">Image</label>~
+                            <label for="gambar">Image</label>
                             <input type="file" class="form-control-file" id="gambar" name="gambar" onchange="previewImage()">
                             <img id="preview" class="mt-3" src="" alt="Preview Image" style="max-width: 300px;">
                         </div>

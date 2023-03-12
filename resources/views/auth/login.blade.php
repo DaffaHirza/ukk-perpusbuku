@@ -19,7 +19,9 @@
             <div class="container">
                 <div class="login-wrap">
                     <div class="login-content">
-                        
+                    <div class="login-logo">
+                            <h2>Welcome back!</h2>
+                        </div>
                         <div class="login-form">
                             <form action="{{ route('login')}}" method="post">
                                 @csrf
@@ -37,7 +39,8 @@
                                     </label>
                                 </div>
                                 <button class="au-btn au-btn--block au-btn--green m-b-20" type="submit">sign in</button>
-                                
+                                <div class="social-login-content">
+                                </div>
                             </form>
                             <div class="register-link">
                                 <p>
