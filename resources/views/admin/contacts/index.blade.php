@@ -4,24 +4,6 @@
 <div class="main-content">
     <div class="section__content section__content--p30">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="d-flex align-items-center justify-content-between">
-                        <a href="{{ route('buku.create') }}" class="btn btn-primary float-right">Add Buku</a>
-                        <form action="{{ route('home') }}" method="GET" class="form-inline">
-                            <div class="input-group">
-                                <input type="text" name="search" class="form-control" placeholder="Cari...">
-                                <div class="input-group-append">
-                                    <button type="submit" class="btn btn-secondary">Cari</button>
-                                </div>
-                                
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-
-
             <div class="row m-t-30">
                 <div class="col-md-12">
                     <!-- DATA TABLE-->

@@ -1574,6 +1574,17 @@ section {
     padding-left: 34px;
 }
 
+.navbar-brand .textjudl {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-link{
+    color: white;
+}
+
 .menu-sidebar .navbar__list .navbar__sub-list li a {
     padding: 11.5px 0;
 }

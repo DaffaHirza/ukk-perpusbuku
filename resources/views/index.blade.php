@@ -15,9 +15,9 @@
     @include('partials/css')
 
   </head>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
       <div class="container">
-          <a class="navbar-brand flex-grow-1" href=""><h3>Perpustakaan Manhwa</h3></a>
+          <a class="navbar-brand flex-grow-1 p-auto"><h3 class="textjudl">Perpustakaan Manhwa</h3></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
           </button>
@@ -48,7 +48,7 @@
                     <input type="text" class="form-control" placeholder="Cari judul, pengarang, atau penerbit..."
                         name="search">
                     <div class="input-group-append">
-                        <button class="btn btn-outline-secondary" type="submit">Cari</button>
+                        <button class="btn btn-outline-info" type="submit">Cari</button>
                     </div>
                   </div>
                 </form>
