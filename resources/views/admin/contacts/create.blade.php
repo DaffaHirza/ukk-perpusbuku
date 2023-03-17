@@ -38,7 +38,6 @@
                         <div class="form-group">
                             <label for="gambar">Image</label>
                             <input type="file" class="form-control-file" id="gambar" name="gambar" onchange="previewImage()">
-                            <img id="preview" class="mt-3" src="" alt="Preview Image" style="max-width: 300px;">
                         </div>
                         <button type="submit" class="btn btn-primary">Add Book</button>
                     </form>
